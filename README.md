@@ -3,6 +3,8 @@
 (주)공공도시 레터팩토리가 고객 소식지를 만드는 파이썬 스크립트 묶음과, 그것을 Claude 데스크톱·Cowork에서 도구로 쓰게 해 주는 MCP 서버다.
 코드만 들어 있다. 고객 설정·API 키·호 폴더는 **데이터 폴더**(예: 구글 드라이브의 `00 뉴스레터 자동화`)에 따로 둔다.
 
+개발 문서(개발 환경 · 구조 · 결정 · 알려진 문제): [docs/](docs/README.md)
+
 ## 설치 (Claude 데스크톱, PC마다 한 번)
 
 1. [uv](https://docs.astral.sh/uv/) 설치: PowerShell에서 `winget install -e --id astral-sh.uv`. Git·파이썬은 필요 없다(zip 아카이브로 받고, 파이썬은 uv가 내려받는다). uvx.exe 위치는 `where uvx` 또는 winget 패키지 폴더 `%LOCALAPPDATA%\Microsoft\WinGet\Packages\astral-sh.uv_…\uvx.exe`
